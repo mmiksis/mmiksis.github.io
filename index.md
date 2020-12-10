@@ -25,7 +25,7 @@ setup.</dd>
 <dt>Install using command line</dt>
 <dd>ownCloud can be installed entirely from the command line. This is convenient for scripted
 operations and for system administrators who prefer using the command line over a GUI.</dd>
-</dl>
+
 
 ### Installing with Docker
 
