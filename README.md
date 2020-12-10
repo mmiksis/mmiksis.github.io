@@ -1,2 +1,2 @@
-# mmiksis.github.io
+# Margot's GitHub Page
 This is the readme
