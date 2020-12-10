@@ -8,7 +8,4 @@ ownCloud includes the ownCloud server, which runs on Linux, client applications 
 Windows, Mac OS X and Linux, and mobile clients for the Android and Apple iOS operating
 systems.
 
-[relative link](page1.md)
 
-* TOC
-{:toc}
