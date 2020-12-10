@@ -5,12 +5,11 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-include:
-  - CONTRIBUTING.md
-  - README.md
-  - LICENSE.md
-  - COPYING.md
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
-  - ISSUE_TEMPLATE.md
-  - PULL_REQUEST_TEMPLATE.md
+output: 
+  html_document:
+    theme: journal
+    highlight: espresso
+    toc: true
+    toc_depth: 4
+    toc_float:
+      collapsed: false
