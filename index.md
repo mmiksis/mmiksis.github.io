@@ -83,7 +83,7 @@ When the connection is successful, two options are displayed:
 
 The server will also start synchronizing your files.
 
-##Connect to the ownCloud server using a mobile client
+## Connect to the ownCloud server using a mobile client
 
 You can connect to the ownCloud server using the web interface on any mobile device operating
 system without installing the client software. You also can download the ownCloud app for additional
