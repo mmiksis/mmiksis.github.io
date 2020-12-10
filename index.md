@@ -29,3 +29,8 @@ There is more than one way to install ownCloud.
 
 As an administrator, you can enable users to connect to the ownCloud server using the server IP
 address and port 8080.
+
+1. In the LDAP configuration panel, click the **Server** tab.
+2. For **Server Configuration**, configure one or more LDAP servers.
+3. For **Host**, enter the server's IP address.
+4. For **Port**, enter *8080*.
