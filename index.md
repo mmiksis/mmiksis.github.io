@@ -63,24 +63,27 @@ The Docker Compose configuration does the following:
 
 4. Start the container using your preferred Docker command-line tool.
 
-    The following example displays how to use [Docker Compose]https://docs.docker.com/compose/).
-    
-    `# Create a new project directory
-mkdir owncloud-docker-server
-cd owncloud-docker-server
-# Copy docker-compose.yml from the GitHub repository
-wget
-https://raw.githubusercontent.com/owncloud/docs/master/modules/admin_manual/examples/installation/docker/docker-compose.yml
-# Create the environment configuration file
-cat << EOF > .env
-OWNCLOUD_VERSION=10.5
-OWNCLOUD_DOMAIN=localhost:8080
-ADMIN_USERNAME=admin
-ADMIN_PASSWORD=admin
-HTTP_PORT=8080
-EOF
-# Build and start the container
-docker-compose up -d`
+5. When the process completes, run docker-compose ps to verify that all containers started successfully.
+
+    **Important**: All files stored in this setup are contained in Docker
+volumes, rather than a physical filesystem tree. It is the admin’s
+responsibility to persist the files. Use, e.g., `docker volume ls |
+grep ownclouddockerserver to inspect the volumes. Use e.g.,
+docker run -v ownclouddockerserver_files:/mnt ubuntu
+tar cf - -C /mnt . > files.tar` to export the files as a tar
+archive.
+Although all important data persists after `docker-compose down;
+docker-compose up -d`, there are certain details that get lost, e.g.,
+default apps may re-appear after they were uninstalled.
+
+**What to do next**
+Although the containers are up and running, it might still take a few minutes until ownCloud is fully
+functional. Run, e.g., `docker-compose logs --follow owncloud` and inspect the log output.
+Wait until the output shows **Starting apache daemon…** before you access the web UI.
+To log in to the ownCloud UI, open http://localhost:8080 in your browser of choice. The username
+and password are the admin username and password which you stored in `.env` earlier.
+
+
 
 ## Enable users to connect to the ownCloud server
 
