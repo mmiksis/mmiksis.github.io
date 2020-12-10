@@ -5,11 +5,4 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-output: 
-  html_document:
-    theme: journal
-    highlight: espresso
-    toc: true
-    toc_depth: 4
-    toc_float:
-      collapsed: false
+toc: true
