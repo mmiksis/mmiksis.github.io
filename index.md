@@ -61,6 +61,27 @@ The Docker Compose configuration does the following:
 |ADMIN_PASSWORD |The admin user’s password |admin|
 |HTTP_PORT |The HTTP port to bind to |8080|
 
+4. Start the container using your preferred Docker command-line tool.
+
+    The following example displays how to use [Docker Compose]https://docs.docker.com/compose/).
+    
+    `# Create a new project directory
+mkdir owncloud-docker-server
+cd owncloud-docker-server
+# Copy docker-compose.yml from the GitHub repository
+wget
+https://raw.githubusercontent.com/owncloud/docs/master/modules/admin_manual/examples/installation/docker/docker-compose.yml
+# Create the environment configuration file
+cat << EOF > .env
+OWNCLOUD_VERSION=10.5
+OWNCLOUD_DOMAIN=localhost:8080
+ADMIN_USERNAME=admin
+ADMIN_PASSWORD=admin
+HTTP_PORT=8080
+EOF
+# Build and start the container
+docker-compose up -d`
+
 ## Enable users to connect to the ownCloud server
 
 As an administrator, you can enable users to connect to the ownCloud server using the server IP
