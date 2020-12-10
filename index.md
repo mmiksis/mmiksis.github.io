@@ -27,7 +27,7 @@ setup.<dd>
 operations and for system administrators who prefer using the command line over a GUI.<dd>
 <dl>
 
-### Installing with Docker
+###Installing with Docker
 
 Install ownCloud using Docket with the offical [ownCloud Docker image](https://hub.docker.com/r/owncloud/server/tags).
 
