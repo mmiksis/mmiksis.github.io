@@ -57,3 +57,18 @@ For more detailed information on setting up user accounts, refer to [User Manage
     By default new users are not assigned to any groups.
 
 4. Click **Create**.
+
+## Connect to ownCloud server using a desktop client
+
+The installation wizard takes you step-by-step through configuration options and account setup.
+
+**Before you begin**
+[Complete the installation of the desktop synchronization client.](https://doc.owncloud.com/desktop/installing.html)
+
+1. In the **ownCloud Connection Wizard**, enter the URL of your ownCloud server and click **Next**.
+
+2. Enter your ownCloud login credentials and click **Next**.
+
+3. In **Setup local folder options**, select to sync all of your files on the ownCloud server, or select individual folders.
+
+4. Click **Connect** to connect to the ownCloud server.
