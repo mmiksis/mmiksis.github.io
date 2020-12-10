@@ -63,6 +63,7 @@ For more detailed information on setting up user accounts, refer to [User Manage
 The installation wizard takes you step-by-step through configuration options and account setup.
 
 **Before you begin**
+
 [Complete the installation of the desktop synchronization client.](https://doc.owncloud.com/desktop/installing.html)
 
 1. In the **ownCloud Connection Wizard**, enter the URL of your ownCloud server and click **Next**.
@@ -72,3 +73,23 @@ The installation wizard takes you step-by-step through configuration options and
 3. In **Setup local folder options**, select to sync all of your files on the ownCloud server, or select individual folders.
 
 4. Click **Connect** to connect to the ownCloud server.
+
+Results
+
+When the connection is successful, two options are displayed:
+
+*Connect to your ownCloud Web GUI
+*Open your local folder
+
+The server will also start synchronizing your files.
+
+##Connect to the ownCloud server using a mobile client
+
+You can connect to the ownCloud server using the web interface on any mobile device operating
+system without installing the client software. You also can download the ownCloud app for additional
+features.
+
+To download the app on any iOS or Android device, open a web browser and access your ownCloud
+server. Log in and access your **Personal** page to locate a link to the ownCloud app in iTunes or
+the Google Play Store. When you download and open the app, you will be prompted to log in
+before the app opens your Files page.
