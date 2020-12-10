@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
 title: ownCloud Installation Quickstart
 plugins:
   - jekyll-relative-links
