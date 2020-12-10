@@ -31,3 +31,8 @@ operations and for system administrators who prefer using the command line over 
 
 Install ownCloud using Docket with the offical [ownCloud Docker image](https://hub.docker.com/r/owncloud/server/tags).
 
+**Before you begin**
+The following instructions are for local installation. For remote access, the value of
+OWNCLOUD_DOMAIN must be adapted.
+    docker run -e OWNCLOUD_DOMAIN=localhost:8080 -p8080:8080
+owncloud/server
