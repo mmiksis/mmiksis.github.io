@@ -41,6 +41,26 @@ OWNCLOUD_DOMAIN must be adapted.
 
 `docker run -e OWNCLOUD_DOMAIN=localhost:8080 -p8080:8080 owncloud/server`
 
+The Docker Compose configuration does the following:
+
+* Exposes ports 8080, allowing for HTTP connections.
+* Uses separate MariaDB and Redis containers.
+* Mounts the data and MySQL data directories on the host for persistent storage.
+
+1. Create a new project directory.
+
+2. Copy and past the sample `docker-compose.yml` into the new project directory.
+
+3. Create a `.env` configuration file, which contains the required configuration settings.
+
+|Required Setting |Description |Example|
+|---|---|---|
+|OWNCLOUD_VERSION |The ownCloud version |latest |
+|OWNCLOUD_DOMAIN |The ownCloud domain |localhost:8080|
+|ADMIN_USERNAME |The admin username |admin|
+|ADMIN_PASSWORD |The admin user’s password |admin|
+|HTTP_PORT |The HTTP port to bind to |8080|
+
 ## Enable users to connect to the ownCloud server
 
 As an administrator, you can enable users to connect to the ownCloud server using the server IP
