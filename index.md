@@ -1,6 +1,6 @@
 #ownCloud Quickstart Installation
 
-Welcome to the ownCloud Server Quickstart Installation Guide. This guide provides an overview
+**Welcome** to the ownCloud Server Quickstart Installation Guide. This guide provides an overview
 of the administration tasks to install and configure ownCloud, which is an open source
 synchronization and sharing application.  
 
