@@ -34,3 +34,21 @@ address and port 8080.
 2. For **Server Configuration**, configure one or more LDAP servers.
 3. For **Host**, enter the server's IP address.
 4. For **Port**, enter *8080*.
+
+## Add a user account
+
+Configure user accounts on the Users page in ownCloud. The default view displays basic
+information about your users.
+
+For more detailed information on setting up user accounts, refer to [User Management](https://doc.owncloud.com/server/10.5/admin_manual/configuration/user/user_configuration.html).
+
+1. In the **Users** default view, enter the user's login name.
+Login names must be unique and cannot be edited.
+Note: Login names can contain letters, numbers, dashes, underscores,
+periods and at symbols (@).
+2. Enter the user's email address.
+The user will receive an email to set their password. The email address can be edited at any
+time.
+3. (Optional) Assign **Groups** memberships from the drop-down.
+By default new users are not assigned to any groups.
+4. Click Create.
