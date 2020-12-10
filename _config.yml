@@ -1,6 +1,5 @@
 theme: jekyll-theme-cayman
-title: Welcome to Margot's GitPage
-description: Here is a description!
+title: ownCloud Installation Quickstart
 plugins:
   - jekyll-relative-links
 relative_links:
