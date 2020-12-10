@@ -53,7 +53,7 @@ The Docker Compose configuration does the following:
 
 3. Create a `.env` configuration file, which contains the required configuration settings.
 
-|Required Setting |Description |Example|
+   |Required Setting |Description |Example|
 |---|---|---|
 |OWNCLOUD_VERSION |The ownCloud version |latest |
 |OWNCLOUD_DOMAIN |The ownCloud domain |localhost:8080|
