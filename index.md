@@ -107,8 +107,8 @@ downloaded (where *x.y.z* is the version number).
 5. (Optional) Verify the PGP signature.
 
 6. Extract the archive contents using the applicable unpacking command for your archive type.
-    `tar -xjf owncloud-x.y.z.tar.bz2
-    `unzip owncloud-x.y.z.zip
+    `tar -xjf owncloud-x.y.z.tar.bz2`
+    `unzip owncloud-x.y.z.zip`
     This unpacks to a single owncloud directory. Copy the ownCloud directory to its final destination.
 
     When you are running the Apache HTTP server, you may safely install ownCloud in your Apache
