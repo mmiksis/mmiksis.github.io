@@ -83,7 +83,39 @@ Wait until the output shows **Starting apache daemon…** before you access the 
 To log in to the ownCloud UI, open http://localhost:8080 in your browser of choice. The username
 and password are the admin username and password which you stored in `.env` earlier.
 
+### Manually Install ownCloud
 
+Manually install ownCloud on Linux.
+
+**Before you begin**
+
+To prepare your Ubuntu 18.04 server for the use with ownCloud, follow the [Ubuntu 18.04
+preparation guide](https://doc.owncloud.com/server/10.5/admin_manual/installation/server_prep_ubuntu_18.04.html).
+
+1. Go to the [ownCloud Download Page](https://owncloud.org/install).
+
+2. Go to Download ownCloud Server > Download > Archive file for server owners and
+download either the `tar.bz2` or `.zip` archive.
+Depending on your selection, `owncloud-x.y.z.tar.bz2` or `owncloud-x.y.z.zip` is
+downloaded (where *x.y.z* is the version number).
+
+3. Download the corresponding checksum file: `owncloud-x.y.z.tar.bz2.md5` or
+`owncloud-x.y.z.tar.bz2.sha256`.
+
+4. Verify the MD5 or SHA256 sum.
+
+5. (Optional) Verify the PGP signature.
+
+6. Extract the archive contents using the applicable unpacking command for your archive type.
+    `tar -xjf owncloud-x.y.z.tar.bz2
+    `unzip owncloud-x.y.z.zip
+    This unpacks to a single owncloud directory. Copy the ownCloud directory to its final destination.
+
+    When you are running the Apache HTTP server, you may safely install ownCloud in your Apache
+document root (`cp -r owncloud /path/to/webserver/document-root`) in which
+*/path/to/webserver/document-root* is replaced by the document root of your Web
+server (`cp -r owncloud /var/www`). On other HTTP servers, it is recommended to install
+ownCloud outside of the document root.
 
 ## Enable users to connect to the ownCloud server
 
