@@ -1,3 +1,9 @@
+# Contents
+{:.no_toc}
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
+
 # ownCloud Quickstart Installation
 
 **Welcome** to the ownCloud Server Quickstart Installation Guide. This guide provides an overview
