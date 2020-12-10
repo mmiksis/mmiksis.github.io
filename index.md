@@ -78,8 +78,8 @@ Results
 
 When the connection is successful, two options are displayed:
 
-*Connect to your ownCloud Web GUI
-*Open your local folder
+* Connect to your ownCloud Web GUI
+* Open your local folder
 
 The server will also start synchronizing your files.
 
