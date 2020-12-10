@@ -30,6 +30,16 @@ There is more than one way to install ownCloud.
 [Install using command line](https://doc.owncloud.com/server/10.6/admin_manual/installation/command_line_installation.html)
 : ownCloud can be installed entirely from the command line. This is convenient for scripted operations and for system administrators who prefer using the command line over a GUI.
 
+### Installing with Docker
+
+Install ownCloud using Docker with the official [ownCloud Docker image](https://hub.docker.com/r/owncloud/server/tags).
+
+**Before you begin**
+
+The following instructions are for local installation. For remote access, the value of
+OWNCLOUD_DOMAIN must be adapted.
+
+`docker run -e OWNCLOUD_DOMAIN=localhost:8080 -p8080:8080 owncloud/server`
 
 ## Enable users to connect to the ownCloud server
 
